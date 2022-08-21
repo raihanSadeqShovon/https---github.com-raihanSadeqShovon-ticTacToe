@@ -22,3 +22,5 @@ def tictactoe():
         diag.append(game[cross][cross])
     if diag.count(diag[0]) == len(diag) and diag[0] != 0:
         print(f"Player {diag[0]} is diagonally winner")
+
+tictactoe()
